@@ -13,5 +13,5 @@ if __name__ == '__main__':
     while True:
         message = input('send: ').encode('utf-8')
         client.sendall(message)
-        answer = client.recv(1024)
+        answer = client.recv(8*1024*1024)
         print('{t}: response: {d}\n'.format(t = datetime.now(), d = answer.decode('utf-8')))
