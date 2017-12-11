@@ -24,6 +24,6 @@ if __name__ == '__main__':
     stream_sock, __addr__ = server_init.accept()
 
     while True:
-        data = stream_sock.recv(1024)
+        data = stream_sock.recv(8*1024*1024)
         print('{t}: message: {d}'.format(t = datetime.now(), d = data.decode('utf-8')))
         stream_sock.send(handler(data))
