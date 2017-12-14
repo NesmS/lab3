@@ -4,7 +4,7 @@ from datetime import datetime
 
 if __name__ == '__main__':
     addr = input("server address: ")
-    send_to = ("addr", 9999)
+    send_to = (addr, 9999)
 
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # IPv4, TCP
 
