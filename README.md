@@ -2,6 +2,8 @@
 
 Клиент и сервер, теперь с использованием TCP сокетов.
 
+_Требует Python 3.4 или новее._
+
 ### Как работает
 
 Сервер создает сокет TCP, биндит под него порт 9999, и далее ожидает соединения от клиента.
@@ -10,9 +12,26 @@
 
 Сервер принимает соединение, создавая под него новый сокет, и далее в бесконечном цикле принимает сообщения от клиента, и отправляет на них соответствующий ответ (зависит от содержания сообщения).
 
+### Скрины Wireshark
 
-### Скрины
-Клиент
-![](https://i.imgur.com/P908zOz.png)
-Сервер
-![](https://i.imgur.com/9t7RboS.png)
+_(захват по tcp port 9999)_
+
+Подключение клиента к серверу
+![](https://i.imgur.com/akcGJiB.png)
+
+Отправка сообщения и ответ сервера:
+![](https://i.imgur.com/shvIjl4.png)
+![](https://i.imgur.com/wp4Z5e0.png)
+![](https://i.imgur.com/7TYkxQQ.png)
+
+И еще сообщение...
+![](https://i.imgur.com/E5Uo9MR.png)
+![](https://i.imgur.com/jExyjS7.png)
+
+И еще! 
+![](https://i.imgur.com/bn96Evf.png)
+![](https://i.imgur.com/ZjJTPEg.png)
+![](https://i.imgur.com/IYkhuFp.png)
+
+В это время на сервере....
+![](https://i.imgur.com/cOPIC1p.png)
