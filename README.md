@@ -17,21 +17,31 @@ _Требует Python 3.4 или новее._
 _(захват по tcp port 9999)_
 
 Подключение клиента к серверу
+
 ![](https://i.imgur.com/akcGJiB.png)
 
 Отправка сообщения и ответ сервера:
+
 ![](https://i.imgur.com/shvIjl4.png)
+
 ![](https://i.imgur.com/wp4Z5e0.png)
+
 ![](https://i.imgur.com/7TYkxQQ.png)
 
 И еще сообщение...
+
 ![](https://i.imgur.com/E5Uo9MR.png)
+
 ![](https://i.imgur.com/jExyjS7.png)
 
 И еще! 
+
 ![](https://i.imgur.com/bn96Evf.png)
+
 ![](https://i.imgur.com/ZjJTPEg.png)
+
 ![](https://i.imgur.com/IYkhuFp.png)
 
 В это время на сервере....
+
 ![](https://i.imgur.com/cOPIC1p.png)
